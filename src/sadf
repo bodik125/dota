@@ -1,0 +1,148 @@
+ {/* <Posts posts={curentPosts} loading={loading}/> */}
+    {/* {Posts} */}
+      {/* <div className="right_filtration"></div>
+      <div className="filtration_block">
+      <div className="tittle_filt"> <h3>Основной атрибут</h3> </div>
+      <div onClick={ ()=>filter_Atr_1('int')} className="filter_by-intllegence">Intellegence</div>
+      <div onClick={ ()=>filter_Atr_1('str')} className="filter_by-strenght">Strenght</div>
+      <div onClick={ ()=>filter_Atr_1('agi')} className="filter_by-agility">Agility</div>
+      </div>
+      <div className="filtration_block">
+
+      <div onClick={ ()=>filter_rols('Carry')} className="filter_by-rols">Carry</div>
+      <div onClick={ ()=>filter_rols('Disabler')} className="filter_by-rols">Disabler</div>
+      <div onClick={ ()=>filter_rols('Support')} className="filter_by-rols">Support</div>
+      <div onClick={ ()=>filter_rols('Initiator')} className="filter_by-rols">Initiator</div>
+      <div onClick={ ()=>filter_rols('Nuker')} className="filter_by-rols">Nuker</div>
+      <div onClick={ ()=>filter_rols('Durable')} className="filter_by-rols">Durable</div>
+      <div onClick={ ()=>filter_rols('Escape')} className="filter_by-rols">Escape</div>
+      <div onClick={ ()=>filter_rols('Initiator')} className="filter_by-rols">Initiator</div>
+      <div className="tittle_filt"> <h3>Роль</h3> </div>
+      </div> */}
+
+      {/* <div className="hero">
+      {sliced.length ? sliced.map(elements=><div className={recolor(elements.primary_attr)}>
+          <p className="hero_name">{elements.localized_name}</p> 
+          <p className="hero_attr">{rename(elements.primary_attr)}</p>
+         <p className="hero_attack">{elements.attack_type}</p>
+          <h3 className="hero_position-title">Роли</h3>
+        <p className="hero_position">{elements.roles.map((elemRols)=><p>{elemRols}</p>)}</p>
+      </div>
+      ):(
+       filter_by_role.length ? filter_by_role.map(elements=><div className={recolor(elements.primary_attr)}>
+          <p className="hero_name">{elements.localized_name}</p> 
+          <p className="hero_attr">{rename(elements.primary_attr)}</p>
+         <p className="hero_attack">{elements.attack_type}</p>
+          <h3 className="hero_position-title">Роли</h3>
+        <p className="hero_position">{elements.roles.map((elemRols)=><p>{elemRols}</p>)}</p>
+      </div>
+     ):(
+      filter_by_attr.length && filter_by_attr.map((elements)=><div className={recolor(elements.primary_attr)}>
+            <p className="hero_name">{elements.localized_name}</p> 
+            <p className="hero_attr">{rename(elements.primary_attr)}</p>
+             <p className="hero_attack">{elements.attack_type}</p>
+             <h3 className="hero_position-title">Роли</h3>        
+         <p className="hero_position">{elements.roles.map(elemRols=> <p>{elemRols}</p>)}</p>
+           </div>
+
+         )))}
+    </div>
+    </div> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       {/* <Posts posts={curentPosts} loading={loading}/> */}
+    {Posts}
+      {/* <div className="right_filtration"></div>
+      <div className="filtration_block">
+      <div className="tittle_filt"> <h3>Основной атрибут</h3> </div>
+      <div onClick={ ()=>filter_Atr_1('int')} className="filter_by-intllegence">Intellegence</div>
+      <div onClick={ ()=>filter_Atr_1('str')} className="filter_by-strenght">Strenght</div>
+      <div onClick={ ()=>filter_Atr_1('agi')} className="filter_by-agility">Agility</div>
+      </div>
+      <div className="filtration_block">
+
+      <div onClick={ ()=>filter_rols('Carry')} className="filter_by-rols">Carry</div>
+      <div onClick={ ()=>filter_rols('Disabler')} className="filter_by-rols">Disabler</div>
+      <div onClick={ ()=>filter_rols('Support')} className="filter_by-rols">Support</div>
+      <div onClick={ ()=>filter_rols('Initiator')} className="filter_by-rols">Initiator</div>
+      <div onClick={ ()=>filter_rols('Nuker')} className="filter_by-rols">Nuker</div>
+      <div onClick={ ()=>filter_rols('Durable')} className="filter_by-rols">Durable</div>
+      <div onClick={ ()=>filter_rols('Escape')} className="filter_by-rols">Escape</div>
+      <div onClick={ ()=>filter_rols('Initiator')} className="filter_by-rols">Initiator</div>
+      <div className="tittle_filt"> <h3>Роль</h3> </div>
+      </div> */}
+
+      <div className="hero">
+      {sliced.length ? sliced.map(elements=><div className={recolor(elements.primary_attr)}>
+          <p className="hero_name">{elements.localized_name}</p> 
+          <p className="hero_attr">{rename(elements.primary_attr)}</p>
+         <p className="hero_attack">{elements.attack_type}</p>
+          <h3 className="hero_position-title">Роли</h3>
+        <p className="hero_position">{elements.roles.map((elemRols)=><p>{elemRols}</p>)}</p>
+      </div>
+      ):(
+       filter_by_role.length ? filter_by_role.map(elements=><div className={recolor(elements.primary_attr)}>
+          <p className="hero_name">{elements.localized_name}</p> 
+          <p className="hero_attr">{rename(elements.primary_attr)}</p>
+         <p className="hero_attack">{elements.attack_type}</p>
+          <h3 className="hero_position-title">Роли</h3>
+        <p className="hero_position">{elements.roles.map((elemRols)=><p>{elemRols}</p>)}</p>
+      </div>
+     ):(
+      filter_by_attr.length && filter_by_attr.map((elements)=><div className={recolor(elements.primary_attr)}>
+            <p className="hero_name">{elements.localized_name}</p> 
+            <p className="hero_attr">{rename(elements.primary_attr)}</p>
+             <p className="hero_attack">{elements.attack_type}</p>
+             <h3 className="hero_position-title">Роли</h3>        
+         <p className="hero_position">{elements.roles.map(elemRols=> <p>{elemRols}</p>)}</p>
+           </div>
+
+         )))}
+    </div>
+    </div>
+
+style={{
+        backgroundImage: `url(${api + elements.img})`
+        }}
+
+
+
+
+
+           filter_by_attr.length ? filter_by_attr.map((elements)=><div  className={recolor(elements.primary_attr)}>
+           <p className="hero_name">{elements.localized_name}</p> 
+         <p className="hero_img"><img src={api + elements.img} ></img></p>
+
+           <p className="hero_attr">{rename(elements.primary_attr)}</p>
+            <p className="hero_attack">{elements.attack_type}</p>
+            <h3 className="hero_position-title">Роли</h3>        
+        <p className="hero_position">{elements.roles.map(elemRols=> <p>{elemRols}</p>)}</p>
+          </div>
+      ):(
+         filter_by_role.length ? filter_by_role.map(elements=><div className={recolor(elements.primary_attr)}>
+         <p className="hero_name">{elements.localized_name}</p> 
+         <p className="hero_img"><img src={api + elements.img} ></img></p>
+         
+         <p className="hero_attr">{rename(elements.primary_attr)}</p>
+        <p className="hero_attack">{elements.attack_type}</p>
+         <h3 className="hero_position-title">Роли</h3>
+       <p className="hero_position">{elements.roles.map((elemRols)=><p>{elemRols}</p>)}</p>
+     </div>
+    ):(

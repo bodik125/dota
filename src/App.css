@@ -1,0 +1,475 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.first-block{
+  background-color: black;
+  color: wheat;
+  font-size: 50px;
+  width: 100%;
+  height: 100vh;
+}
+.first-block h1{
+  margin: 0;
+}
+.heroes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hero{
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  margin:  0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-wrap: wrap;
+}
+.hero_name-block{
+  background-color: black;
+}
+.hero_name-block h1{
+  color: blanchedalmond;
+}
+.hero_name{
+  font-size: 25px;
+
+  display: block;
+  font-weight: bold;
+  color: white;
+
+  margin:  10px auto;
+  padding: 10px;
+}
+.hero_position{
+  font-size: 15px;
+
+  display: block;
+  font-weight: bold;
+  color: white;
+
+  margin:  0 auto;
+}
+.hero_position-title{
+  padding: 0;
+  margin: 0;
+}
+.hero_attr{
+  font-size: 15px;
+
+  display: block;
+  font-weight: bold;
+  color: white;
+
+  margin:  10px auto;
+  padding: 10px;
+}
+.hero_attack{
+  font-size: 18px;
+
+  display: block;
+  font-weight: bold;
+  color: white;
+
+  margin:  10px auto;
+  padding: 10px;
+}
+.hero-atr_name{
+  color: black;
+  font-size:  18px;
+
+}
+.roli{
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  font-size: 18px;
+  color: white;
+}
+.roli_title{
+  font-weight: bold;
+  font-size: 20px;
+}
+.roli p{
+  margin: 10px;
+}
+.colorStrenght{
+  background-color: red;
+  color: white;
+  width: 30%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+  margin: 10px;
+  position: relative;
+}
+.colorIntellegence{
+  background-color: blue;
+  color: white;
+  width: 30%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+  margin: 10px;
+  position: relative;
+
+}
+.colorAgility{
+  background-color: green;
+  color: white;
+  width: 30%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+  margin: 10px;
+  position: relative;
+
+}
+
+.button_scrool{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  top: 20;
+  background-image: url(../src/right_arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.button_scrool_2{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  background-image: url(../src/left_arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+}
+.App{
+  position: relative;
+}
+.filter_by-strenght{
+  display: flex;
+  background-color: red;
+  width: 120px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin: 5px;
+
+
+}
+.filter_by-agility{
+  background-color: green;
+  display: flex;
+  width: 120px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin: 5px;
+
+
+}
+.filter_by-intllegence{
+  background-color: blue;
+  display: flex;
+  width: 120px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin: 5px;
+
+  
+}
+.filtration_block{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.filter_by-rols{
+  background-color: grey;
+  display: flex;
+  width: 120px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  font-size: 18px;
+}
+.tittle_filt{
+  font-size: 20px;
+}
+.filtration_block_1{
+  display: flex;
+
+  float: left;
+}
+.left_filtration{
+  display: block;
+}
+.right_filtration{
+  display: block;
+}
+.filter_by-abc{
+  width: 100px;
+  height: 80px;
+  background-color: indigo;
+  margin: 5px;
+}
+.filter_break{
+  background-color: blueviolet;
+  display: flex;
+  width: 100px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  font-size: 18px;
+}
+.filtr{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.pagination {
+  margin: 15px auto;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  outline: none;
+}
+.pagination> li{
+  margin:  10px 3px;
+}
+.pagination_block{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
+}
+/* .pagination_block {
+  margin-top: 30px;
+}
+.pagination:hover{
+  background-color: grey;
+  color: black;
+} */
+
+.pagination > .active > a{
+  background-color: #282c34 ;
+  border-color: #282c34 ;
+  color: #fff;
+}
+.pagination > li > a{
+  border: 1px solid #282c34;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.pagination > li >:hover{
+  border: 1px solid #FFF;
+  color: #FFF;
+  padding: 5px 10px;
+  outline: none;
+  background-color: #282c34;
+  cursor: pointer;
+}
+.button_popup{
+  padding: 20px 0;
+  background-color: black;
+  font-size:  20px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.popup_block{
+  display: none;
+  position: fixed;
+  width: 80%;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  left: 100px;
+  height: 100vh;
+  z-index: 99999;
+}
+.info_area_pop{
+ font-size: 15px; 
+ text-align: left;
+ width: 40%;
+}
+.pop_block{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 300px;
+  justify-content: space-around;
+}
+.hero_name_pop{
+  width: 100%;
+  font-size: 36px;
+  font-weight: bold;
+}
+.hero_img_pop{
+  width: 35%;
+}
+.hero_img_pop img{
+  width: 100%;
+}
+.hero_position-title_pop{
+  font-size: 22px;
+}
+.hero_attr_pop{
+  text-decoration: underline;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.hero_position_pop{
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  margin: 0;
+}
+
+.hero_position-title_pop{
+  text-align: center;
+}
+.inf{
+  display: flex;
+  justify-content: space-between;
+}
+.hero_attack_pop{
+  font-size: 19px;
+}
+.exit{
+  background-color: red;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+}
+.button_search{
+  width: 150px;
+  height: 25px;
+  background-color: teal;
+  border:  0;
+  height: 100%;
+  margin-left: 25px;
+  padding: 0 35px;
+}
+.search{
+  width: 100px;
+  height: 40px;
+  background-color:  white;
+  display: flex;
+  margin:  0 auto;
+}
+.search>input{
+}
+.heart {
+  position: absolute;
+  left: 20px;
+  width: 25px;
+  height: 44px;
+  background-color: grey;
+  box-shadow: -1px 0px 2px #444;
+/* Скругляем верхние углы */    
+  -webkit-border-radius: 50px 50px 0 0;
+  -moz-border-radius: 50px 50px 0 0;
+  border-radius: 50px 50px 0 0;
+/* Определяем угол наклона */    
+  -webkit-transform: rotate(315deg);
+  -moz-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  -o-transform: rotate(315deg);
+  transform: rotate(315deg);
+}
+/* Формируем правую часть */
+.heart:before {
+  position: absolute;
+  width: 44px;
+  height: 25px;
+  left: 0;
+  bottom: 0;
+  content: "";
+  background-color: grey;
+  box-shadow: 0px 3px 3px #444444; 
+  -webkit-border-radius: 50px 50px 0 0;
+  -moz-border-radius: 50px 50px 0 0;
+  border-radius: 0 50px 50px 0;
+}
+/* Убираем тень при наведении */
+.heart:hover:before, .heart:hover{
+    box-shadow:none;
+  background-color: red;
+
+}
+.liked{
+  background-color: black;
+}
+.liked::before{
+  background-color: black;
+}
+.hero_img>img{
+  width: 100%;
+}
+.led {
+  background-color: chocolate;
+}
